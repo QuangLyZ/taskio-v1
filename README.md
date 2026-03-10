@@ -1,18 +1,52 @@
-# React + Vite
+**Taskio**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskio is a lightweight task management web application built with React. The project demonstrates essential front-end development concepts such as authentication, form validation, API integration, and dynamic UI updates.
 
-Currently, two official plugins are available:
+The application allows users to create, manage, and track tasks through a clean and responsive interface. Task data is retrieved and stored using a mock REST API to simulate a real-world application workflow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Features**
+	•	User login and basic authentication
+	•	Create, edit, and delete tasks
+	•	Dynamic task list updates
+	•	Form validation
+	•	Responsive user interface
+	•	Integration with a mock REST API
 
-## React Compiler
+**Tech Stack**
+	•	React
+	•	JavaScript
+	•	HTML5
+	•	CSS3
+	•	Vite
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+**Installation**
 
-Note: This will impact Vite dev & build performances.
+Clone the repository and install dependencies:
 
-## Expanding the ESLint configuration
+git clone https://github.com/your-username/taskio.git
+cd taskio
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run the development server:
+
+npm run dev
+
+Build the project for production:
+
+npm run build
+
+**Project Structure**
+
+taskio
+ ├ src
+ ├ public
+ ├ package.json
+ └ README.md
+
+**Purpose**
+
+This project was built as a learning exercise to practice modern front-end development, working with APIs, and deploying a production-ready React application.
+
+**License**
+
+This project is for educational purposes.
